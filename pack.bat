@@ -1,0 +1,1 @@
+pyinstaller -i IconConverter.ico --clean -F main.py -n IconConverter
