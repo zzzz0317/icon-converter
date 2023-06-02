@@ -6,9 +6,9 @@ from PIL import Image
 
 try:
     flag_argv_input = False
-    if len(sys.argv) > 2:
+    if len(sys.argv) > 1:
         flag_argv_input = True
-        source_file = sys.argv[2]
+        source_file = sys.argv[1]
     else:
         source_file = input("Source path:\n")
     source_path = os.path.dirname(source_file)
